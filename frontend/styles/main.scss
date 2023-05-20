@@ -1,0 +1,491 @@
+body {
+  background-color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  color: #021f62;
+}
+
+// Navbar
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+
+  height: 74px;
+  border-radius: 0;
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #021f62;
+
+      &.active {
+        font-weight: bold;
+        color: #021f62 !important;
+      }
+    }
+  }
+}
+
+.btn-login {
+  background-color: #021f62;
+  color: #fff;
+
+  &:hover {
+    background-color: #1e3771;
+    color: #fff;
+  }
+}
+
+// Header
+
+// kalau tag "tidak perlu" pakai titik (.)
+// kalau class "perlu" pakai titik (.)
+// Kalau id pakai pagar (#)
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -68px;
+  background-image: url("../images/header-image.jpg");
+  background-size: cover;
+
+  h1,
+  p {
+    color: #fff;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  
+}
+
+.btn-get-started {
+    background-color: #ffaa57;
+    color: #fff;
+
+    &:hover {
+      background-color: #fdbe7f;
+      color: #fff;
+    }
+  }
+
+// Statistics
+.section-stats {
+  margin-top: -50px;
+
+  .stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+// Wisata Popular
+.section-popular {
+  min-height: 540px;
+  background-color: #031439;
+  margin-top: -50px;
+  margin-bottom: -230px;
+
+  .section-popular-heading {
+    margin-top: 150px;
+
+    h2,
+    p {
+      color: #fff;
+    }
+
+    h2 {
+      font-family: "Playfair Display", sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.section-popular-content {
+  .section-popular-travel {
+
+    .card-travel {
+      min-height: 380px;
+      background-color: #ddd;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    
+
+      .travel-country {
+        font-size: 18px;
+        color: #fff;
+      }
+
+      .travel-location {
+        font-size: 26px;
+        color: #fff;
+      }
+
+      .travel-button {
+        .btn-travel-details {
+          background-color: #ffaa57;
+          color: #fff;
+
+          &:hover {
+            background-color: #ffc081;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Networks
+.section-networks {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+// Testimonial
+.section-testimonials-heading {
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.section-testimonials-content {
+  margin-top: 350px;
+  padding-bottom: 100px;
+
+  
+  .btn-get-started {
+    background-color: #ffaa57;
+    color: #fff;
+
+    &:hover {
+      background-color: #fdbe7f;
+      color: #fff;
+    }
+  }
+
+  .btn-need-help {
+    background-color: #E1E1E1;
+    color: #AAAAAA;
+
+    &:hover {
+      background-color: #eeeeee;
+      color: #AAAAAA;
+    }
+  }
+}
+
+// Footer
+.section-footer {
+  a {
+    color: #021f62;
+  }
+}
+
+// Details Page
+.section-details-header {
+  min-height: 310px;
+  background: #E4E6EB;
+  margin-top: -68px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    padding : 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #021f62;
+    }
+  }
+
+  .card-details {
+    padding : 30px;
+    border-radius: 11px;
+
+    .trip-informations {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #021f62;
+      }
+
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+
+      .text-blue {
+        color: #021f62;
+        font-weight: bold;
+      }
+
+      .text-orange {
+        color: #FF9E53;
+        font-weight: bold;
+      }
+    }
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #7F838B;
+    }
+
+    .payment-instructions {
+      font-weight: 300;
+      font-size: 14px;
+      color: #7F838B;
+    }
+
+    .bg-light-subtle {
+      margin-top: 20px;
+      height: 60px;
+      background-color: #f0ecec;
+      border-radius: solid 1px #DEE3EF;
+
+    
+    
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #7F838B;
+    }
+  }
+  }
+
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
+  }
+
+  .gallery {
+    .xzoom-container {
+      display:block;
+
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+      }
+
+      .xactive {
+        border: 4px solid #1abc9c;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #021F62;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+
+    }
+
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
+
+  .join-container {
+    margin-top: -16px;
+
+  }
+
+  .btn-join-now {
+    background-color: #FFAA57;
+    color: #fff;
+    border-radius: 0;
+
+    &:hover {
+      background-color: #fdbd7d;
+      color: #fff;
+    }
+  }
+
+   .bank {
+    .bank-item {
+
+      h3 {
+        font-size: 18px;
+        color: #021f62;
+        margin-bottom: 0;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .description {
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+
+        p {
+          font-family: "Assistant", sans-serif;
+          font-weight: normal;
+          font-size: 16px;
+          text-align: left;
+          color: #021f62;
+        }
+      }
+
+      .bank-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+    }
+  }
+
+  .btn-add-now {
+    background-color: #021f62;
+    color: #fff;
+
+    &:hover {
+      background-color: #1e3771;
+      color: #fff;
+    }
+  }
+
+  .input-group-text {
+    background-color: transparent;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #021f62;
+  }
+
+  .gj-datepicker {
+    .datepicker {
+      border-right: 0;
+    }
+
+    .input-group-append {
+      .btn {
+        padding-right: 30px;
+      }
+    }
+  }
+}
+
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #021f62;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #021f62;
+    color: #fff;
+
+    &:hover {
+      background-color: #1e3771;
+      color: #fff;
+    }
+  }
+}
