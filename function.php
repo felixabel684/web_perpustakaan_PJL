@@ -86,6 +86,16 @@ function hapus_anggota($nim)
     return mysqli_affected_rows($koneksi);
 }
 
+function hapus_laporan()
+{
+    global $koneksi;
+
+    // $status = htmlspecialchars($status1['status']);
+
+    mysqli_query($koneksi, "DELETE FROM tb_transaksi WHERE status = 'kembali'");
+    return mysqli_affected_rows($koneksi);
+}
+
 // Membuat fungsi ubah
 function ubah($data)
 {
